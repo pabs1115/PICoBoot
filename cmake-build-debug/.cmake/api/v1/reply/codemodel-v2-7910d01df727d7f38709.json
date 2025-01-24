@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "PICoBoot",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "PICoBoot_DCAN-II_PICo33.elf::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-PICoBoot_DCAN-II_PICo33.elf-Debug-ba8bc3407411458f682f.json",
+					"name" : "PICoBoot_DCAN-II_PICo33.elf",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/pjvd9t/Downloads/PICoBoot/PICoBoot-master/cmake-build-debug",
+		"source" : "C:/Users/pjvd9t/Downloads/PICoBoot/PICoBoot-master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

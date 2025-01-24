@@ -1,0 +1,24 @@
+"C:\Users\pjvd9t\AppData\Local\JetBrains\CLion 2023.3.3\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Users/pjvd9t/AppData/Local/JetBrains/CLion 2023.3.3/bin/ninja/win/x64/ninja.exe" -DCMAKE_SYSTEM_NAME=Generic -G Ninja -S C:\Users\pjvd9t\Downloads\PICoBoot\PICoBoot-master -B C:\Users\pjvd9t\Downloads\PICoBoot\PICoBoot-master\cmake-build-debug
+-- The C compiler identification is GNU 13.1.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Users/pjvd9t/AppData/Local/JetBrains/CLion 2023.3.3/bin/mingw/bin/gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - failed
+-- Check for working C compiler: C:/Users/pjvd9t/AppData/Local/JetBrains/CLion 2023.3.3/bin/mingw/bin/gcc.exe
+-- Check for working C compiler: C:/Users/pjvd9t/AppData/Local/JetBrains/CLion 2023.3.3/bin/mingw/bin/gcc.exe - works
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- FindXC16: Variable XC16_SEARCH_PATH isn't defined, default to C:/Program Files/Microchip/xc16/v2.10/bin
+-- FindXC16: Found xc16-gcc at C:/Program Files/Microchip/xc16/v2.10/bin/xc16-gcc.exe
+-- FindXC16: xc16-g++ not found, C++ support disabled
+-- FindXC16: Found xc16-ar at C:/Program Files/Microchip/xc16/v2.10/bin/xc16-ar.exe
+-- FindXC16: Found xc16-objcopy at C:/Program Files/Microchip/xc16/v2.10/bin/xc16-objcopy.exe
+-- FindXC16: Found xc16-objdump at C:/Program Files/Microchip/xc16/v2.10/bin/xc16-objdump.exe
+-- FindXC16: Found xc16-bin2hex at C:/Program Files/Microchip/xc16/v2.10/bin/xc16-bin2hex.exe
+-- Configuring done (26.0s)
+-- Generating done (0.1s)
+-- Build files have been written to: C:/Users/pjvd9t/Downloads/PICoBoot/PICoBoot-master/cmake-build-debug
+
+Problems were encountered while collecting compiler information:
+	Unexpected compiler output.This compiler might be unsupported.
+	If you are using GCC/Clang, please report the bug in https://youtrack.jetbrains.com/issues/CPP.

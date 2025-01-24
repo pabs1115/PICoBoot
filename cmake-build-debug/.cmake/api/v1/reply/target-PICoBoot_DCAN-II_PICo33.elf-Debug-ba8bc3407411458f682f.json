@@ -1,0 +1,499 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "PICoBoot_DCAN-II_PICo33.elf"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"picoboot_add_board",
+			"add_link_options",
+			"include",
+			"target_link_options",
+			"add_compile_options",
+			"target_compile_options",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt",
+			"CMake/FindXC16.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 38,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 23,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 5,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 73,
+				"parent" : 4
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 26,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 71,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 9,
+				"parent" : 0
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 25,
+				"parent" : 1
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 1
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu99"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-Wcast-align"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-omf=elf"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-DXPRJ_default=default"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-legacy-libc"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-msmart-io=1"
+				},
+				{
+					"backtrace" : 7,
+					"fragment" : "-msfr-warn=off"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-O1"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-std=gnu99"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-mcpu=33EP256MU806"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 10,
+					"path" : "C:/Users/pjvd9t/Downloads/PICoBoot/PICoBoot-master/Components"
+				},
+				{
+					"backtrace" : 11,
+					"path" : "C:/Users/pjvd9t/Downloads/PICoBoot/PICoBoot-master/Boards/DCAN-II_PICo33"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				6,
+				8,
+				10,
+				12,
+				15,
+				16,
+				22,
+				25,
+				29,
+				30,
+				31,
+				32,
+				34,
+				36,
+				38
+			]
+		}
+	],
+	"id" : "PICoBoot_DCAN-II_PICo33.elf::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 5,
+				"fragment" : "-Wl,--defsym=__MPLAB_BUILD=1,,--stack=16,--check-sections,--data-init,--pack-data,--handles,--isr,--no-gc-sections,--fill-upper=0,--stackguard=16,--no-force-link,--smart-io,--report-mem",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-Wl,--gc-sections,--script=C:/Users/pjvd9t/Downloads/PICoBoot/PICoBoot-master/Boards/DCAN-II_PICo33/PICoBoot.ld,--heap=1024",
+				"role" : "flags"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "PICoBoot_DCAN-II_PICo33.elf",
+	"nameOnDisk" : "PICoBoot_DCAN-II_PICo33.elf",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				2,
+				6,
+				8,
+				10,
+				12,
+				15,
+				16,
+				22,
+				25,
+				29,
+				30,
+				31,
+				32,
+				34,
+				36,
+				38
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				1,
+				3,
+				4,
+				5,
+				7,
+				9,
+				11,
+				13,
+				14,
+				17,
+				18,
+				19,
+				20,
+				21,
+				23,
+				24,
+				26,
+				27,
+				28,
+				33,
+				37
+			]
+		},
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				35
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Core/Core.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Core/Core.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Core/Delay.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Core/Delay.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Core/IDESupport.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/PICo24.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/UART/UART.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/UART/UART.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_deluxe_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_deluxe_device.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_deluxe_device_cdc.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_deluxe_device_cdc.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_device.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_device.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_device_config.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_device_descriptors.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_device_events.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/Device/usb_device_local.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_cdc_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_ch9.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_common.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/usb_deluxe.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_deluxe.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_hal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICo24/Peripherals/USB/usb_hal_16bit.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_hal_dspic33e.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_hal_local.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICo24/Peripherals/USB/usb_hal_pic24f.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICoBoot/CRC.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICoBoot/Environment.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICoBoot/FlashOps.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICoBoot/PICoBoot.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Components/PICoBoot/PICoBoot.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Components/PICoBoot/Protocol.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Boards/DCAN-II_PICo33/PICoBoot.ld",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "Boards/DCAN-II_PICo33/PICoBoot_Board.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"path" : "Boards/DCAN-II_PICo33/PICoBoot_Board.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "main.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}
